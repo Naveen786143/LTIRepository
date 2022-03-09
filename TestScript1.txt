@@ -1,0 +1,11 @@
+public class Test {
+ 
+@Test
+public void TC1(){
+driver.findElement(By.id("signinbtn")).click();
+System.out.println(driver.getTitle());
+}
+@Test
+public void TC(){
+System.out.println("testcase1");
+}
